@@ -1,0 +1,18 @@
+/* 单个作品包装 */
+.works-wrap {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 简介 */
+.works-wrap > .synopsis {
+    width: 100%;
+}
+
+/* 图片 */
+.works-wrap > .works-img {
+    width: 60%;
+}
